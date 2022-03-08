@@ -2,6 +2,7 @@ public class Pessoa {
 	
 	private String nome;
 	private String cpf;
+	private String dataDeNasc;
 	private String endereco;
 	private String contato;
 
@@ -19,6 +20,13 @@ public class Pessoa {
 
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
+	}
+	
+	public String getDataDeNasc() {
+		return dataDeNasc;
+	}
+	public void setDataDeNasc(String dataDeNasc) {
+		this.dataDeNasc = dataDeNasc;
 	}
 
 	public String getEndereco() {
